@@ -1,0 +1,160 @@
+ticket_text,category,priority
+Laptop not starting,Hardware,High
+Forgot email password,Access,Low
+VPN connection failed,Network,Medium
+Production server down,Infrastructure,Critical
+Printer not working,Hardware,Medium
+Unable to access shared drive,Access,High
+Internet connection slow,Network,Low
+Software installation failed,Software,Medium
+System overheating,Hardware,High
+Database server crashed,Infrastructure,Critical
+Unable to login to portal,Access,Low
+Password reset required,Access,Low
+User account locked,Access,Medium
+Cannot access office VPN,Network,High
+WiFi disconnected repeatedly,Network,Medium
+Router not responding,Network,High
+Laptop battery dead,Hardware,Medium
+Keyboard not working,Hardware,Low
+Monitor flickering,Hardware,Low
+Application crashing on startup,Software,Medium
+Software update failed,Software,Low
+Database backup failed,Infrastructure,High
+Server CPU usage high,Infrastructure,High
+
+ticket_text,category
+Unable to login to portal,Access
+Password reset required,Access
+User account locked,Access
+Forgot company email password,Access
+Cannot access employee dashboard,Access
+Login credentials not working,Access
+Two-factor authentication failed,Access
+Access denied to shared folder,Access
+Permission issue in HR portal,Access
+Cannot sign into Outlook,Access
+Account suspended unexpectedly,Access
+Unable to access payroll system,Access
+SSO login failed,Access
+User role permissions missing,Access
+Authentication error on website,Access
+
+Cannot access office VPN,Network
+WiFi disconnected repeatedly,Network
+Router not responding,Network
+Internet connection unavailable,Network
+VPN timeout error,Network
+Network cable unplugged,Network
+DNS server not responding,Network
+Unable to connect to office network,Network
+Packet loss detected,Network
+Slow internet speed in office,Network
+LAN connection unavailable,Network
+Firewall blocking connection,Network
+Network switch failure,Network
+Unable to reach remote server,Network
+Wireless access point down,Network
+
+Laptop battery dead,Hardware
+Keyboard not working,Hardware
+Monitor flickering,Hardware
+Mouse not detected,Hardware
+Laptop overheating frequently,Hardware
+Printer not printing,Hardware
+USB ports not working,Hardware
+Hard disk failure detected,Hardware
+Computer not powering on,Hardware
+Webcam not functioning,Hardware
+Speaker not working,Hardware
+Broken laptop screen,Hardware
+Scanner hardware issue,Hardware
+Docking station not detected,Hardware
+RAM failure error,Hardware
+
+Application crashing on startup,Software
+Software update failed,Software
+Excel application freezing,Software
+Unable to install software,Software
+Browser crashing frequently,Software
+ERP application error,Software
+Antivirus software malfunctioning,Software
+Outlook not sending emails,Software
+Operating system update failed,Software
+Application license expired,Software
+PDF software not opening files,Software
+Software configuration issue,Software
+CRM application not loading,Software
+Database client crashing,Software
+Video conferencing software error,Software
+
+Database backup failed,Infrastructure
+Server CPU usage high,Infrastructure
+Server unavailable,Infrastructure
+Storage system failure,Infrastructure
+Data center cooling issue,Infrastructure
+Cloud service outage,Infrastructure
+Virtual machine not starting,Infrastructure
+Database server down,Infrastructure
+Load balancer failure,Infrastructure
+Application server unavailable,Infrastructure
+Power outage in server room,Infrastructure
+Backup server not responding,Infrastructure
+Storage capacity exceeded,Infrastructure
+Network operations center alert,Infrastructure
+Critical infrastructure monitoring failure,Infrastructure
+
+Email login page keeps refreshing,Access
+Cannot access company intranet,Access
+User account disabled after password change,Access
+Access request pending for application,Access
+Unable to authenticate with MFA,Access
+Permission denied while opening folder,Access
+Login token expired repeatedly,Access
+Cannot access attendance portal,Access
+HRMS account locked,Access
+Unable to access cloud storage account,Access
+
+VPN disconnects every few minutes,Network
+Office internet extremely slow,Network
+Unable to obtain IP address,Network
+Network printer unreachable,Network
+Ethernet connection keeps dropping,Network
+Remote desktop connection failed,Network
+Cannot connect to WiFi after update,Network
+Gateway timeout on network services,Network
+Network adapter not detected,Network
+Unable to access shared drive over network,Network
+
+Laptop fan making loud noise,Hardware
+Computer randomly restarting,Hardware
+Battery not charging properly,Hardware
+External monitor not detected,Hardware
+Fingerprint scanner not working,Hardware
+Headphones jack malfunctioning,Hardware
+Power button unresponsive,Hardware
+Laptop touchpad not functioning,Hardware
+Graphics card overheating,Hardware
+CPU temperature too high,Hardware
+
+Microsoft Teams crashes during meetings,Software
+Application stuck on loading screen,Software
+Unable to save files in application,Software
+Software activation failed,Software
+Corrupted application installation,Software
+Program closes unexpectedly,Software
+Browser extension causing crashes,Software
+Accounting software not responding,Software
+Error while exporting reports,Software
+Software compatibility issue after update,Software
+
+Web server not responding,Infrastructure
+Database connection pool exhausted,Infrastructure
+Cloud storage unavailable,Infrastructure
+Server memory usage critical,Infrastructure
+Load balancer health check failed,Infrastructure
+Production environment outage,Infrastructure
+Backup process not completing,Infrastructure
+Application deployment failure,Infrastructure
+Storage array malfunction detected,Infrastructure
+Primary server unreachable,Infrastructure

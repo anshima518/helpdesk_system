@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Accounts History</title>
+
+<style>
+
+body{
+    background:#0f172a;
+    color:white;
+    font-family:Arial;
+    padding:40px;
+}
+
+table{
+    width:100%;
+    border-collapse:collapse;
+    background:#111827;
+}
+
+th,td{
+    padding:15px;
+    border:1px solid #334155;
+}
+
+th{
+    background:#1e293b;
+}
+
+.delete{
+    background:red;
+    color:white;
+    padding:8px 12px;
+    text-decoration:none;
+    border-radius:6px;
+}
+
+.back{
+    display:inline-block;
+    margin-bottom:20px;
+    background:#2563eb;
+    color:white;
+    padding:10px 20px;
+    text-decoration:none;
+    border-radius:8px;
+}
+
+</style>
+</head>
+
+<body>
+
+<a href="/" class="back">
+← Dashboard
+</a>
+
+<h1>👤 Accounts History</h1>
+
+<table>
+
+<tr>
+    <th>ID</th>
+    <th>Username</th>
+    <th>Action</th>
+</tr>
+
+{% for user in users %}
+
+<tr>
+
+    <td>{{ user[0] }}</td>
+
+    <td>{{ user[1] }}</td>
+
+    <td>
+
+        <a
+        href="/delete_account/{{ user[0] }}"
+        class="delete"
+        onclick="return confirm('Delete this account permanently?')">
+
+        Delete
+
+        </a>
+
+    </td>
+
+</tr>
+
+{% endfor %}
+
+</table>
+
+</body>
+</html>
